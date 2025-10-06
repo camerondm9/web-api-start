@@ -1,0 +1,1 @@
+Finish logging in by clicking this link: {{ magic_link }}

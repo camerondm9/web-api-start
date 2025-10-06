@@ -1,0 +1,12 @@
+# No version number specified here means the latest version.
+# This is great for starting a new project, but it means things can silently
+# change between when you test code on your computer and when you deploy it.
+# To prevent this from happening, specify a version number.
+# Details: https://pip.pypa.io/en/latest/reference/requirements-file-format/
+
+aiosqlite
+email-validator
+fastapi[standard-no-fastapi-cloud-cli]
+python-multipart
+starlette[full]
+sqlmodel

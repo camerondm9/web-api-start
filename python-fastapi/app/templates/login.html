@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" href="{{ url_for('static', path='/styles.css') }}" />
+	</head>
+	<body>
+		Login Page
+        <form method="post">
+            <input type="email" name="email" />
+            <input type="hidden" name="csrf_token" value="{{ csrf_token }}" />
+            <input type="submit" value="Log in" />
+        </form>
+	</body>
+</html>
